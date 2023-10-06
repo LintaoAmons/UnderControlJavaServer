@@ -1,0 +1,7 @@
+### home-page3
+GET http://{{host}}/expense/home-page?referenceId=lintao&month=JUNE
+Authorization: Bearer c9113d5f-03dd-4407-94de-4b4f2462ca0a-its-me-lintao
+
+### Get by id
+GET http://{{host}}/expense/{{expenseId}}
+Authorization: Bearer c9113d5f-03dd-4407-94de-4b4f2462ca0a-its-me-lintao

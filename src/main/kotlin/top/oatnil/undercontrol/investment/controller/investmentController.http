@@ -1,0 +1,19 @@
+###
+GET http://localhost:80/investment/target/uuid
+
+###
+POST http://localhost:80/investment/records
+Content-Type: application/json
+
+{
+  "buyInUnitPrice": 12,
+  "quantity": 100,
+  "investmentTargetId": "uuid"
+}
+
+###
+GET http://localhost:80/investment/records
+
+###
+GET http://localhost:8088/investment/home
+Authorization: Bearer c9113d5f-03dd-4407-94de-4b4f2462ca0a-its-me-lintao
